@@ -1,2 +1,5 @@
-# GPTM Website Source Code
-Source code the GPTM website. Public for the time being, might potentially become a private repo.
+# GPTM
+Source code the new GPTM website.
+
+# Current site
+http://www.gptm.org/
