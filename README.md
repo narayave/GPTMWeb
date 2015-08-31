@@ -14,3 +14,4 @@ http://www.gptm.org/
 1. In the navbar, make sure current and previous committees are appropriate.
 2. In the About page itself, the committee positions need to be modified.
 3. On the bottom of the About page, the "Older" navigation button takes the user to the previous committee bios, this needs to be changed to the current committee.
+4. In previous committee pages, make sure to fix the page header.
