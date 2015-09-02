@@ -1,0 +1,107 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>GPTM</title>
+
+	<!-- Bootstrap -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Custom Style -->
+	<link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+	<div class="container">
+		<div class="banner">
+			<img alt="GPTM" src="Media/GPTMLogos/banner.png">
+		</div>
+
+		<!-- Static navbar -->
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<!-- Needed for mobile navbar  -->
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">GPTM</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Home</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="about.html">About</a></li>
+								<li><a href="committee-1516.html">The Committee</a></li>
+								<li role="separator" class="divider"></li>
+								<li class="dropdown-header">Prev Committees</li>
+								<li><a href="committee-1415.html">Committee 2014-15</a></li>
+								<li><a href="#">Committee 2013-14</a></li>
+							</ul>
+						</li>
+						<li><a href="membership.html">Membership</a></li>
+						<li><a href="donate.html">Donate</a></li>
+
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="https://www.facebook.com/portlandtamilmandram">Facebook</a></li>
+						<li><a href="../navbar-fixed-top/">Mailing List</a></li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div><!--/.container-fluid -->
+		</nav>
+	</div>
+
+
+	<div class="container" >
+		<div class="panel panel-default" style="border-radius: 6px; padding-right: 20px; padding-left: 20px; padding-top: 10px;">
+			<h1>Donate</h1>
+			<br />
+			<p>
+				Dear Patrons,
+				<br />
+				GPTM is a registered non-profit organization for the Tamil speaking populace of the Portland metropolitan area, including the Portland suburbs, Vancouver and Washington. To help support this organization and bring rich cultural events, community events, alerts, keep our children connected to our rich heritage and be a be a rallying point for our community, we need your generous financial support.       
+			</p>
+
+			<b>P.O. Box 6655 <br />
+				Beaverton<br />
+				OR 97007<br />
+				Web: www.gptm.org<br />
+				mail: Info@gptm.org<br />
+				USA Tax ID: 200009820<br />
+			</b>
+
+			<br />
+
+			<p>Donate Securely thru PayPal</p>
+
+			<!--
+				<form id="form1" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="paypal">
+					<input type="hidden" name="cmd" value="_s-xclick" />
+					<input type="hidden" name="hosted_button_id" value="52NUDJA4XDYH2" />
+					<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+				</form>
+			-->
+			<!-- replaced the above paypal generated forms with plain html that can work in asp.net environment -->
+			<a id="ppaldonate" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=52NUDJA4XDYH2" target="_blank">								
+				<img id="donateimage" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" alt="PayPal - The safer, easier way to pay online!"/>
+			</a>
+
+		</div>
+
+
+	</div> <!-- /container -->
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="jquery-2.1.4.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
