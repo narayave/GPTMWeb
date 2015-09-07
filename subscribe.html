@@ -10,6 +10,22 @@
 	<!-- Custom Style -->
 	<link href="style.css" rel="stylesheet">
 
+<script type="text/javascript">
+//<![CDATA[
+// var theForm = document.forms['ctl01'];
+// if (!theForm) {
+//     theForm = document.ctl01;
+// }
+// function __doPostBack(eventTarget, eventArgument) {
+//     if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+//         theForm.__EVENTTARGET.value = eventTarget;
+//         theForm.__EVENTARGUMENT.value = eventArgument;
+//         theForm.submit();
+//     }
+// }
+//]]>
+</script>
+
 </head>
 <body>
 	<div class="container">
@@ -59,49 +75,36 @@
 
 
 	<div class="container" >
-		<div class="panel panel-default" style="border-radius: 6px; padding-right: 20px; padding-left: 20px; padding-top: 10px;padding-bottom: 20px">
-			<h1>Donate</h1>
-			<br />
+		<div class="jumbotron">
+			<h1>Subscribe</h1>
+			
+			<br/>
+			
 			<p>
-				Dear Patrons,
-				<br />
-				GPTM is a registered non-profit organization for the Tamil speaking populace of the Portland metropolitan area, including the Portland suburbs, Vancouver and Washington. To help support this organization and bring rich cultural events, community events, alerts, keep our children connected to our rich heritage and be a be a rallying point for our community, we need your generous financial support.       
+				To receive our news letter, cultural event notificatios, and be informed of what's happening in our community, just leave us your email address below!
 			</p>
 
-			<b>P.O. Box 6655 <br />
-				Beaverton<br />
-				OR 97007<br />
-				Web: www.gptm.org<br />
-				mail: Info@gptm.org<br />
-				USA Tax ID: 200009820<br />
-			</b>
 
-			<br />
+			<form class="navbar-form navbar-left" role="search">
+				<div class="form-group">
+					<input type="email" class="form-control" placeholder="Enter email address" name="EMAIL" required>
+				</div>
+				<button type="submit" class="btn btn-default" name="ctl00$MainContent$manisid" value="Subscribe" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$manisid&quot;, &quot;&quot;, false, &quot;&quot;, &quot;http://gptm.us7.list-manage.com/subscribe/post?u=61b0dd6c565ff9a2312a6468b&amp;id=90d69d32fd&quot;, false, false))" id="MainContent_manisid" name="manis_button" method="post" target="_blank">Subscribe</button>
+			</form>
 
-			<p>Donate Securely thru PayPal</p>
+<br />
+<br />
+<br />
 
-			<!--
-				<form id="form1" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="paypal">
-					<input type="hidden" name="cmd" value="_s-xclick" />
-					<input type="hidden" name="hosted_button_id" value="52NUDJA4XDYH2" />
-					<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
-					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
-				</form>
-			-->
-			<!-- replaced the above paypal generated forms with plain html that can work in asp.net environment -->
-			<a id="ppaldonate" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=52NUDJA4XDYH2" target="_blank">								
-				<img id="donateimage" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" alt="PayPal - The safer, easier way to pay online!"/>
-			</a>
-
+			<div class="alert alert-danger" role="alert">Note: If you wish to be removed from the amiling list, simply unsubscribe by clicking the link on the email you received or send a request to be removed to info@gptm.org</div>
 		</div>
-
-
 	</div> <!-- /container -->
+</div>
 
 
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="jquery-2.1.4.min.js"></script>
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="bootstrap/js/bootstrap.min.js"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="jquery-2.1.4.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
