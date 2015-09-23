@@ -24,7 +24,7 @@
 	max-width: 60%;
 	padding-bottom: 30px;
 }
-.ads {
-/*	float: right;
-*/	padding-right: -50px
+.ads .carousel .carousel-inner .item img {
+	height: 10em;
+	width: auto;
 }
