@@ -10,22 +10,6 @@
 	<!-- Custom Style -->
 	<link href="style.css" rel="stylesheet">
 
-	<script type="text/javascript">
-//<![CDATA[
-// var theForm = document.forms['ctl01'];
-// if (!theForm) {
-//     theForm = document.ctl01;
-// }
-// function __doPostBack(eventTarget, eventArgument) {
-//     if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
-//         theForm.__EVENTTARGET.value = eventTarget;
-//         theForm.__EVENTARGUMENT.value = eventArgument;
-//         theForm.submit();
-//     }
-// }
-//]]>
-</script>
-
 </head>
 <body>
 	<div class="container">
@@ -63,7 +47,7 @@
 						<li><a href="membership.html">Membership</a></li>
 						<li><a href="donate.html">Donate</a></li>
 						<li><a href="contactus.html">Contact Us</a></li>
-					
+
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="https://www.facebook.com/portlandtamilmandram">Facebook</a></li>
@@ -89,7 +73,7 @@
 					Are we not? <br />
 					Leave a message! <br /> <br />
 					Want to send us a care package? <br />
-					Mail us something! <br /> <br />
+					Feel free to mail us something! :)<br /> <br />
 				</div>
 				<br />
 				<br />
@@ -103,41 +87,43 @@
 			</div>
 		</div>
 		
-		<div class="panel panel-default" style="border-radius: 6px; padding-right: 20px; padding-left: 20px; padding-top: 10px;padding-bottom: 20px">
 
-<!-- <div class="panel panel-default">
--->	<form class="navbar-form navbar-left" role="search">
+<div class="panel panel-default" style="padding: 10px 90px 30px 50px;">
 
-<div class="form-group">
-	<input type="email" class="form-control" placeholder="Enter email address" name="EMAIL" required>
-</div>
+	<h3>Send us a message!</h3>
 
-<br />
-<br />
+	<form id="form" class="form">
 
-<textarea class="form-control" rows="5" placeholder="Enter a message">
-</textarea>
+		<div class="form-group">
+			<input id="email" type="email" class="form-control" placeholder="Enter email address" name="fromEmail" required/>
+		</div>
 
-<br />
-<br />
+		<div class="form-group">
+		<textarea id="msg" class="form-control" placeholder="Enter a message" name="sendMsg" required></textarea>
+		</div>
 
-<input type="submit" class="btn btn-default" name="ctl00$MainContent$btnsubmit" value="Submit your comments" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$btnsubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="MainContent_btnsubmit" />
+		<!-- The following submit needs to be fixed still -->
+		<!-- <input type="submit" class="btn btn-default" name="ctl00$MainContent$btnsubmit" value="Submit" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$btnsubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="MainContent_btnsubmit" /> -->		
+ 		<input type="submit" class="btn btn-default" value="Submit" />
+		<input type="reset" class="btn btn-default" value="Clear" id="clearInputs" onclick="clear()"/>
 
-<input type="submit" class="btn btn-default" name="ctl00$MainContent$btnclear" value="Clear" id="MainContent_btnclear" />
-
-</form>
+	</form>
 
 
 </div>
 
 
 </div> <!-- /container -->
-</div>
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="jquery-2.1.4.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="bootstrap/js/bootstrap.min.js"></script>
+<script>
+function clear() {
+	document.getElementById("form").reset();
+}
+</script>
 </body>
 </html>
