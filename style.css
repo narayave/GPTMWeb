@@ -25,6 +25,8 @@
 	padding-bottom: 30px;
 }
 .ads .carousel .carousel-inner .item img {
-	height: 10em;
+	height: 9em;
 	width: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
