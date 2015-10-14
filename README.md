@@ -5,8 +5,9 @@ Source code the new GPTM website.
 http://www.gptm.org/
 
 ## Changes / Comments##
-1. The website looks quite simple. The 2 primary colors are white and black. Ravi wants us to spice it up a little. The banner color will be chosen based on the theme of the website. A really helpful thing to consider is http://www.lavishbootstrap.com/. A banner color can be chosen and using this website, we can come out with a general color scheme. 
-2. There was a picture corousel on the main page, but it has been commented out. We want visitors to immediately know about the upcoming events, more than the pictures. This is will moved to a Gallery page instead.
+1. The website looks quite simple. The 2 primary colors are white and black. Ravi wants us to spice it up a little. The banner color will be chosen based on the theme of the website. A really helpful thing to consider is http://www.lavishbootstrap.com/. A banner color can be chosen and using this website, we can come out with a general color scheme.
+2. Another change of request was the font. Specifically, a crisp font would go well with the website. An Open Source font can be found here in the following website: https://github.com/showcases/fonts. Ideally, we would just need to build it, and use it through our CSS.
+3. There was a picture corousel on the main page, but it has been commented out. We want visitors to immediately know about the upcoming events, more than the pictures. This is will moved to a Gallery page instead.
 
 ##Action Required
 1. "Mailist List" submission needs to be tested.
