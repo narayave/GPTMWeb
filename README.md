@@ -4,11 +4,16 @@ Source code the new GPTM website.
 # Current site
 http://www.gptm.org/
 
-
 ## Changes / Comments##
-1. The banner might eventually change. Other thought is we can change the general theme of the website. Helpful link is http://www.lavishbootstrap.com/.
-2. We need to have carousels for ads, based on the type. It's our job to try to figure out where that goes.
+1. The website looks quite simple. The 2 primary colors are white and black. Ravi wants us to spice it up a little. The banner color will be chosen based on the theme of the website. A really helpful thing to consider is http://www.lavishbootstrap.com/. A banner color can be chosen and using this website, we can come out with a general color scheme.
+2. Another change of request was the font. Specifically, a crisp font would go well with the website. An Open Source font can be found here in the following website: https://github.com/showcases/fonts. Ideally, we would just need to build it, and use it through our CSS.
+3. There was a picture corousel on the main page, but it has been commented out. We want visitors to immediately know about the upcoming events, more than the pictures. This is will moved to a Gallery page instead.
 
+##Action Required
+1. "Mailist List" submission needs to be tested.
+2. "Contact Us" submit form is not finished. Need to figure out how to use Javascript to be able to submit the form as an email.
+3. "Gallery" page needs to be created.  This item is still in the backlog. Make sure to have a picture carousel here, along with links to all previous event photos.
+4. Format "Links" page to have some spazz. An idea to keep in your mind is "Why would people want to go to these links? What about culture?"
 
 ##Changes for "About" page when there is a new committee 
 1. In the navbar, make sure current and previous committees are appropriate.
