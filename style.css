@@ -43,3 +43,6 @@
 	height: auto;
 
 }
+.row .col-xs-6 {
+	padding: 1em 0em 1em 0em;
+}
